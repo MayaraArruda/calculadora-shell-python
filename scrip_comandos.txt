@@ -1,0 +1,22 @@
+mayara94@MayaraArruda:~/modulo1/python$ nano calculadora.sh
+mayara94@MayaraArruda:~/modulo1/python$ ll
+total 16
+drwxr-xr-x 2 mayara94 mayara94 4096 Jun 30 15:34 ./
+drwxr-xr-x 5 mayara94 mayara94 4096 Jun 30 15:03 ../
+-rw-r--r-- 1 mayara94 mayara94   14 Jun 30 15:34 calculadora.sh
+-rw-r--r-- 1 mayara94 mayara94   64 Jun 30 15:09 nome.py
+mayara94@MayaraArruda:~/modulo1/python$ chmod +x calculadora.sh
+mayara94@MayaraArruda:~/modulo1/python$ ll
+total 16
+drwxr-xr-x 2 mayara94 mayara94 4096 Jun 30 15:34 ./
+drwxr-xr-x 5 mayara94 mayara94 4096 Jun 30 15:03 ../
+-rwxr-xr-x 1 mayara94 mayara94   14 Jun 30 15:34 calculadora.sh*
+-rw-r--r-- 1 mayara94 mayara94   64 Jun 30 15:09 nome.py
+mayara94@MayaraArruda:~/modulo1/python$ chmod go=r calculadora.sh
+mayara94@MayaraArruda:~/modulo1/python$ ll
+total 16
+drwxr-xr-x 2 mayara94 mayara94 4096 Jun 30 15:34 ./
+drwxr-xr-x 5 mayara94 mayara94 4096 Jun 30 15:03 ../
+-rwxr--r-- 1 mayara94 mayara94   14 Jun 30 15:34 calculadora.sh*
+-rw-r--r-- 1 mayara94 mayara94   64 Jun 30 15:09 nome.py
+mayara94@MayaraArruda:~/modulo1/python$ ./calculadora.sh
